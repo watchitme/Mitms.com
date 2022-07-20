@@ -1,0 +1,719 @@
+.staff div p
+{
+	background-color: rgba(255,1,5,0.64);
+	text-align: center;
+	color: whitesmoke;
+	margin-top: 0px;
+}
+#s9
+{
+	background-image: url("adnan.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#s2
+{
+	background-image: url("imran.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#s6
+{
+	background-image: url("rehman.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.reg
+{
+	margin-left: 580px;
+	background-color: rgba(7,174,0,0.76);
+	font-size: 30;
+	padding: 10px 50px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	border-radius: 10px;
+	box-shadow: 1px 4px 10px grey;
+}
+.reg:hover
+{
+	
+	background-color: rgba(6,127,1,1.00);
+	box-shadow: 0px 0px 0px grey;
+}
+
+#s5
+{
+	background-image: url("adn.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#s3
+{
+	background-image: url("abdull.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#s4
+{
+	background-image: url("junid.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#s8
+{
+	background-image: url("abid.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#s1
+{
+	background-image: url("wajid.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#s7
+{
+	background-image: url("medlab.JPG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.navbar
+		{
+			position: fixed;
+			width: 100%;
+			height: 60px;
+			background-color: yellow;
+			margin-left: -10px;
+			margin-top: -14px;
+			
+		}
+		.logo
+		{
+			width: 60px;
+		}
+		.mci
+		{
+			height: 60px;
+		}
+		 .imgs li
+		{
+			margin-top: -14px;
+			display: inline-block;
+			list-style: none;
+			margin-left: 40px;
+		}
+		.menu
+		{
+			list-style: none;
+			margin-top: -18px;
+			margin-left: -50px;
+			background-color: red;
+			width: 100px;
+			height: 720px;
+			display: none;
+		}
+		.apply
+		{
+			list-style: none;
+			margin-top: -18px;
+			margin-left: -50px;
+			background-color: #EF8BEB;
+			width: 120px;
+			height: 720px;
+			display: block;
+		
+		}
+		.menu li
+		{
+			text-decoration: none;
+			padding: 10px 20px;	
+			font-size: 20px;
+			font-weight: bold;
+			cursor: pointer;
+		}
+		.menu li:hover,.active
+		{
+			background-color: #FB039D;
+			color: aliceblue;
+			transition: 0.5s;	
+		}
+		.webpic
+		{
+			width: 100%;
+			height: 300px;
+			background-image: url("girl.jpg");
+			background-size: 100%;
+			background-repeat: no-repeat;
+			box-shadow: 2px 4px 6px grey;
+			
+		}
+		#open img
+		{
+			height: 20px;
+			width: 30px;  
+			margin-top: 0px;
+			margin-left: 40px; 
+			position: absolute ; 
+			background-color: gainsboro; 
+		}
+		.mypic
+		{
+			width: 300px;
+			height: 300px;
+			background-image: url("abdull.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			box-shadow: 0.1px -0.5px 19px grey;
+			position:absolute;
+			margin-left: 40%;
+			margin-top: 150px;
+			
+		}
+		.mypic p
+		{
+			background-color: rgba(0,0,0,0.41);
+			margin-top: 0px;
+			text-align: center;
+			font-size: 18px;
+			color: whitesmoke;
+		}
+		.mypic #me 
+		{
+			background-color: rgba(0,0,0,0.41);
+			margin-top: 230px;
+			text-align: center;
+			font-size: 25px;
+			color: whitesmoke;
+		}
+		.mypic a
+		{
+			color: whitesmoke;
+			text-decoration: none;
+			font-size: 25px;
+			background-color: rgba(161,219,7,0.88);
+			border-radius: 10px;
+		}
+		.mypic a:hover
+		{
+			color: whitesmoke;
+			text-decoration: none;
+			font-size: 25px;
+			background-color: rgba(191,14,17,0.91);
+			box-shadow: 1px 1px 10px red;
+			transition: 0.5s;
+		}
+		.links
+		{
+			margin-left:200px;
+			margin-top: 100px;
+		
+		}
+		.links a
+		{
+			padding: 15px 100px;
+			text-decoration: none;
+			transition: 0.5s;
+		}
+		.links a:hover
+		{
+			padding: 15px 100px;
+			text-decoration: none;
+			font-size: 20px;
+			color: whitesmoke;
+			transition: 0.5s;
+		}
+		.links a:nth-child(1)
+		{
+			
+			text-decoration: none;
+			background-color: red;
+		}
+		.links a:nth-child(2)
+		{
+			
+			text-decoration: none;
+			background-color: #0080ff;
+		}
+		.links a:nth-child(3)
+		{
+			
+			text-decoration: none;
+			background-color: #01da55;
+		}
+		.it,.med,.lan
+{
+	width: 800;
+	height: 460px;
+	margin-left: 210px;
+	float: left;
+	display: flex;
+	
+	
+}
+.it1
+{
+	width: 400px;
+	height: 450px;
+	background-image: url("itclass.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 10px solid white;
+	box-shadow: 2px 5px 10px grey;
+	
+	
+	
+
+}
+.it2
+{
+	background-image: url("girl.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 100px;
+	width: 400px;
+	height: 450px;
+	background-color: yellow;
+	border: 10px solid white;
+	box-shadow: 2px 5px 10px grey;
+}
+.it2 p
+{
+	background-color: rgba(0,0,0,0.70);
+	margin-top: 0px;
+	font-size: 35px;
+	color: whitesmoke;
+	text-align: center;
+}
+.it1 p
+{
+	background-color: rgba(0,0,0,0.70);
+	margin-top: 0px;
+	font-size: 35px;
+	color: whitesmoke;
+	text-align: center;
+}
+.med1
+{
+	width: 400px;
+	height: 450px;
+	background-image: url("medclass.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: -100px 0px;
+	border: 10px solid white;
+	box-shadow: 2px 5px 10px grey;
+	
+
+}
+
+.med2
+{
+	background-image: url("medlab.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 100px;
+	width: 400px;
+	height: 450px;
+	border: 10px solid white;
+	box-shadow: 2px 5px 10px grey;
+}
+.med2 p
+{
+	background-color: rgba(0,0,0,0.70);
+	margin-top: 0px;
+	font-size: 35px;
+	color: whitesmoke;
+	text-align: center;
+}
+.med1 p
+{
+	background-color: rgba(0,0,0,0.70);
+	margin-top: 0px;
+	font-size: 35px;
+	color: whitesmoke;
+	text-align: center;
+}
+
+.lan1
+{
+	width: 400px;
+	height: 450px;
+	background-image: url("lancon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 10px solid white;
+	box-shadow: 2px 5px 10px grey;
+	
+
+}
+.lan2
+{
+	background-image: url("lanclass.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 100px;
+	width: 400px;
+	height: 450px;
+	background-color: yellow;
+	border: 10px solid white;
+	box-shadow: 2px 5px 10px grey;
+}
+.lan2 p
+{
+	background-color: rgba(0,0,0,0.70);
+	margin-top: 0px;
+	font-size: 35px;
+	color: whitesmoke;
+	text-align: center;
+}
+.lan1 p
+{
+	background-color: rgba(0,0,0,0.70);
+	margin-top: 0px;
+	font-size: 35px;
+	color: whitesmoke;
+	text-align: center;
+}
+.staff
+{
+	width: 800px;
+	height: 280px;
+	margin-left: 300px;
+	float: left;
+	display: flex;
+}
+.staff1,.staff2,.staff3
+{
+	
+	margin-left: 10px;
+	width: 200px;
+	height: 250px;
+	background-color: yellow;
+	border: 10px solid white;
+	box-shadow: 1px 2px 7px grey;
+	
+}
+/*		-----------------MEDIA------------------*/
+		@media only screen and (min-width:600px) and (max-width:1100px)
+		{
+			.reg
+{
+	margin-left: 440px;
+	background-color: rgba(7,174,0,0.76);
+	font-size: 30;
+	padding: 10px 50px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	border-radius: 10px;
+}
+				.it,.med,.lan
+{
+	width: 800;
+	height: 460px;
+	margin-left: 170px;
+	float: left;
+	display: flex;
+	
+	
+}
+			.staff
+{
+	
+	width: 800px;
+	height: 280px;
+	margin-left: 150px;
+	float: left;
+	display: flex;
+}
+			.links
+		{
+			margin-left:210px;
+			margin-top: 220px;
+		}
+		.links a
+		{
+			padding: 10px 50px;
+			text-decoration: none;
+			transition: 0.5s;
+		}
+		.links a:hover
+		{
+			padding: 10px 40px;
+			text-decoration: none;
+			font-size: 20px;
+			color: whitesmoke;
+			transition: 0.5s;
+		}
+			.it1
+{
+	width: 300px;
+	height: 350px;
+	background-color: green;
+	border: 10px solid white;
+	box-shadow: 1px 3px 10px grey;
+	
+
+}
+.it2
+{
+	margin-left: 10px;
+	width: 300px;
+	height: 350px;
+	background-color: yellow;
+	border: 10px solid white;
+	box-shadow: 1px 3px 10px grey;
+}
+			
+			
+			.med1
+{
+	width: 300px;
+	height: 350px;
+	background-color: green;
+	border: 10px solid white;
+	box-shadow: 1px 3px 10px grey;
+	
+
+}
+.med2
+{
+	margin-left: 10px;
+	width: 300px;
+	height: 350px;
+	background-color: yellow;
+	border: 10px solid white;
+	box-shadow: 1px 3px 10px grey;
+}
+			
+			
+			.lan1
+{
+	width: 300px;
+	height: 350px;
+	background-color: green;
+	border: 10px solid white;
+	box-shadow: 1px 3px 10px grey;
+	
+
+}
+.lan2
+{
+	margin-left: 10px;
+	width: 300px;
+	height: 350px;
+	background-color: yellow;
+	border: 10px solid white;
+	box-shadow: 1px 3px 10px grey;
+}
+		}
+		@media only screen and (max-width: 500px)
+		{
+			.navbar
+		{
+			width: 100%;
+			height: 40px;
+			background-color: yellow;
+		}
+		.logo
+		{
+			width: 40px;
+
+		}
+		.mci
+		{
+			height: 40px;
+		}
+		 .imgs li
+		{
+			display: inline-block;
+			list-style: none;
+			font-size: 16px;
+		}
+			.staff
+{
+	
+	width: 800px;
+	height: 280px;
+	margin-left: 150px;
+	float: left;
+	display: flex;
+}
+			.webpic
+		{
+			width: 100%;
+			height: 170px;
+			background-image: url("girl.jpg");
+			background-size: 100%;
+			background-repeat: no-repeat;
+			box-shadow: 2px 4px 6px grey;
+			
+		}
+			#open img
+		{
+			height: 20px;
+			width: 30px;  
+			margin-top: 6px;
+			margin-left: 40px; 
+			position: absolute ; 
+			background-color: gainsboro; 
+		}
+			.mypic
+		{
+			width: 200px;
+			height: 200px;
+			background-color: red;
+			position:absolute;
+			margin-left: 25%;
+			margin-top: 100px;
+			
+		}
+			.mypic #me 
+		{
+			background-color: rgba(0,0,0,0.41);
+			margin-top: 130px;
+			text-align: center;
+			font-size: 25px;
+			color: whitesmoke;
+		}
+		.mypic a
+		{
+			color: whitesmoke;
+			text-decoration: none;
+			font-size: 25px;
+		}
+			.links
+		{
+			margin-left:105px;
+			margin-top: 220px;
+		}
+		.links a
+		{
+			padding: 5px 0px;
+			text-decoration: none;
+			transition: 0.5s;
+		}
+		.links a:hover
+		{
+			padding: 10px px;
+			text-decoration: none;
+			font-size: 20px;
+			color: whitesmoke;
+			transition: 0.5s;
+		}
+				.it
+{
+	width: 500;
+	height: 600px;
+	margin-left: 50px;
+	float: left;
+	display: flex;
+	
+	
+	
+}
+.it1
+{
+	width: 160px;
+	height: 200px;
+	background-color: green;
+	border: 10px solid white;
+	box-shadow: 1px 3px 10px grey;
+	
+
+}
+.it2
+{
+	margin-left: 5px;
+	width: 160px;
+	height: 200px;
+	background-color: yellow;
+	border: 10px solid white;
+	box-shadow: 1px 3px 10px grey;
+}
+			
+				.med
+{
+	width: 500;
+	height: 600px;
+	margin-left: 50px;
+	float: left;
+	display: flex;
+	
+	
+	
+}
+.med1
+{
+	width: 160px;
+	height: 200px;
+	background-color: green;
+	border: 10px solid white;
+	box-shadow: 1px 3px 10px grey;
+	
+
+}
+.med2
+{
+	margin-left: 5px;
+	width: 160px;
+	height: 200px;
+	background-color: yellow;
+	border: 10px solid white;
+	box-shadow: 1px 3px 10px grey;
+}
+			
+			
+							.lan
+{
+	width: 500;
+	height: 600px;
+	margin-left: 50px;
+	float: left;
+	display: flex;
+	
+	
+	
+}
+.lan1
+{
+	width: 160px;
+	height: 200px;
+	background-color: green;
+	border: 10px solid white;
+	box-shadow: 1px 3px 10px grey;
+	
+
+}
+.lan2
+{
+	margin-left: 5px;
+	width: 160px;
+	height: 200px;
+	background-color: yellow;
+	border: 10px solid white;
+	box-shadow: 1px 3px 10px grey;
+}
+		}
+		
+@media only screen and (min-height: 700px)
+{
+	.apply
+		{
+			list-style: none;
+			margin-top: -18px;
+			margin-left: -50px;
+			background-color: #EF8BEB;
+			width: 120px;
+			height: 1000px;
+			display: block;
+		
+		}
+		}
+	
